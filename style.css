@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: inter;
+}
+.nav-links{
+    display: flex;
+    gap: 10px;
+}
+.nav-links a{
+    color: #fff;
+}
+.active{
+    color: #0B6DBC;
+}
+.button button{
+    width: 96px;
+    height: 48px;
+    border-radius: 5px;
+}
+.login-btn{
+    color: #085796;
+    background-color: black;
+    border: 3px solid #0B6DBC;
+    margin-right: 23px;
+}
+.signup-btn{
+     color:#FFFFFF;
+     background-color: #0B6DBC;
+     border: 3px solid #0B6DBC;
+}
+/*START OF HERO-BANNER*/
+.hero-banner{
+    background-image: url(Asset/Rectangle\ 1\ \(1\).png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000000cb;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.hero-section{
+    display: flex;
+}
+.hero-text h1{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 98px;
+    margin-bottom: 22px;
+    font-family: inter;
+}
+.hero-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 602px;
+    margin-bottom: 34px;
+    font-family: inter;
+}
+.explore-courses-btn{
+    width: 268px;
+    height: 72px;
+    background-color: #0B6DBC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 600;
+}
+/* END OF HERO-BANNER*/
+
+/*START OF BRAND-SECTION*/
+
+.brand-section{
+    height: 228px;
+    background:#BABABA;
+}
+.brand-section h2{
+    text-align: center;
+    padding-top: 22px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    width: 5;
+}
+.brand-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* END OF BRAND-SECTION */
+
+/* START OF COURSE-LIBARY */
+.course-library{
+    height: auto;
+    background:rgb(26, 21, 21);
+    color: white;
+}
+.container{
+    padding-left:41px;
+    padding-right:41px;
+}
+
+.course-library h2{
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: inter;
+    color: #fff;
+    width: 5;
+}
+.container{
+    padding-left: 41px;
+    padding-right: 41px;
+    margin: auto;
+}
+.course-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.view all-btn{
+    width: 268px;
+    height: 72px;
+    background-color: #0B6DBC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.memm{
+    background-color: #000;
+}
+.action{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.doom{
+    display: flex;
+    justify-content: space-between;
+}
+
